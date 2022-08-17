@@ -9,9 +9,8 @@ class AudioStreamBuilder extends Readable {
             wordLength: 16
         };
 
+        super({...defaults, ...options});
         this.options = {...defaults, ...options};
-
-        super(this.options);
 
         debug('constructor', this.options);
 
