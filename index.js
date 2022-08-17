@@ -14,7 +14,7 @@ class AudioStreamBuilder extends Readable {
 
         debug('constructor', this.options);
 
-        let bytesPerSample = this.optionns.wordLength / 8;
+        let bytesPerSample = this.options.wordLength / 8;
         let bytesPerFrame = bytesPerSample * this.options.channels;
         this.bufferSize = bytesPerFrame * 16384;
         
