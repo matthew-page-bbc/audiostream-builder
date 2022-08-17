@@ -23,7 +23,7 @@ class AudioStreamBuilder extends Readable {
     }
 
     addSample(sample) {
-        debug('addSample', sample);)
+        debug('addSample', sample);
         if (this.options.wordLength == 16) {
             this._bufferPosition = this._buffer.writeInt16LE(sample, this._bufferPosition);
         }
