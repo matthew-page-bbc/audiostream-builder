@@ -1,6 +1,6 @@
 {
   "name": "audiostream-builder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create a readable-stream of audio from single sample inputs ",
   "main": "index.js",
   "scripts": {
